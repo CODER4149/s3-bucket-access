@@ -21,7 +21,7 @@ file_list = {"order_file": f'.xlsx',
 
 
 app = FastAPI(
-    title="tagsmart APIV2",
+    title="",
 
 )
 
