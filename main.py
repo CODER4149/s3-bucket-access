@@ -1,3 +1,4 @@
+import os
 from http.client import HTTPException
 
 from fastapi import FastAPI
@@ -36,6 +37,9 @@ app.add_middleware(
 
 
 # app.include_router(all_routes)
+# to join path of directory
+running_destination = os.path.join(os.getcwd(), 'data')
+download_destination = os.path.join(os.getcwd(), 'data')
 
 
 # to create aws client connection
